@@ -3,7 +3,7 @@
 _Sep 2021_
 
 #### Overall impression
-This paper therefore introduces S2Looking, a building change detection dataset that contains large-scale sidelooking satellite images captured at various off-nadir angles. The dataset consists of 5000 bitemporal image pairs of rural areas and more than 65,920 annotated instances of changes throughout the world. 
+This paper introduces S2Looking, a building change detection dataset that contains large-scale sidelooking satellite images captured at various off-nadir angles. The dataset consists of 5000 bitemporal image pairs of rural areas and more than 65,920 annotated instances of changes throughout the world. 
 It expands upon existing datasets by providing: 1) larger viewing angles; 2) large illumination variances; and 3) the added complexity of rural images. 
 The dataset is available at [S2looking Dataset](https://github.com/S2Looking/)
 
@@ -26,8 +26,7 @@ The dataset is available at [S2looking Dataset](https://github.com/S2Looking/)
 	- Semantics metrics
 		- Eulerian metric: pixel value, IoU.
 		- Lagrangian metric: structured outputs, Chamfer distance
-	- Instance metrics
-		- TP, F1 score
+	
 
 ![](https://cdn-images-1.medium.com/max/1600/1*HwMxIxdiuEewezEp7VSk_Q.png)
 
@@ -35,11 +34,9 @@ The dataset is available at [S2looking Dataset](https://github.com/S2Looking/)
 - optional early fusion of camera and lidar
 
 #### Technical details
-- ICP and NDT (normal distribution transform) to do lidar alignment/registration.
-- Drawbacks of IPM: IPM assumes a flat ground plane. Predictions in each view are not easily combined to a holistic view.
-- MLP is better than IPM (assuming ground plane) and depth prediction (Lift Splat Shoot).
-- Different categories are not equally recognizable in one modality. Road boundary are more recognizable with lidar than lane lines. 
+- 
+
 
 #### Notes
-- The BEV decoder can be useful for top-down view image recognition. This solves two issues
-	- Clustering of close-by objects, even if they intersect or are close by
+- 
+	- 
