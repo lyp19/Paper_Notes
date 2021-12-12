@@ -8,35 +8,10 @@ It expands upon existing datasets by providing: 1) larger viewing angles; 2) lar
 The dataset is available at [S2looking Dataset](https://github.com/S2Looking/)
 
 #### Key ideas
-- View transformer: both neural feature transformation and geometric projection. HDMapNet does not predict depth of monocular cameras at all but use MLP to map pixels from perspective to BEV.
-- Image encoder
-	- perspective view image encoder: EfficientNet-B0 pretrained.
-	- neural view transformer (MLP): from $H_{pv} \times W_{pv}$ perspective view feature map spatial dimension to $H_c \times W_c$ top down spatial dimension. The MLP is shared channel-wisely and does not change the feature dimension (Note: should be num of feature channels?). --> This proves to be better than [Lift Splat Shoot](lift_splat_shoot.md).
-	- the camera features are then transformed to **ego vehicle frame** with using extrinsics. Final feature is the **average** of $N_m$ camera features.
-- Point cloud encoder
-	- point-pillars. 
-	- concatenated with camera feature if lidar branch exists
-- BEV decoder
-	- semantic segmentation
-	- instance embedding: push-pull loss
-	- lane direction: 2-hot encoding. For background the label is 0.
-- Postprocessing
-	- vectorization: DBSCAN + NMS, then connecting with direction.
-- Evaluation
-	- Semantics metrics
-		- Eulerian metric: pixel value, IoU.
-		- Lagrangian metric: structured outputs, Chamfer distance
-	
-
-![](https://cdn-images-1.medium.com/max/1600/1*HwMxIxdiuEewezEp7VSk_Q.png)
-
-- vectorized output of 3 classes (lane line, boundary and pedestrian crossing)
-- optional early fusion of camera and lidar
 
 #### Technical details
-- 
+
 
 
 #### Notes
-- 
-	- 
+
