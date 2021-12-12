@@ -2,8 +2,6 @@
 
 _Sep 2021_
 
-tl;dr: Structured static BEVNet with optional lidar camera early fusion.
-
 #### Overall impression
 The paper focuses on prediction of vectorized map elements in the birds-eye-view for scene understanding. The perspective to BEV transformation is not done via IPM but rather with a MLP. The extrinsics are only used to piece the cameras together to the ego frame (thus with only translation, not rotation).
 
