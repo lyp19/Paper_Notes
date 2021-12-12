@@ -5,7 +5,7 @@ _Sep 2021_
 #### Overall impression
 This paper therefore introduces S2Looking, a building change detection dataset that contains large-scale sidelooking satellite images captured at various off-nadir angles. The dataset consists of 5000 bitemporal image pairs of rural areas and more than 65,920 annotated instances of changes throughout the world. 
 It expands upon existing datasets by providing: 1) larger viewing angles; 2) large illumination variances; and 3) the added complexity of rural images. 
-The dataset is available at [](https://github.com/S2Looking/)
+The dataset is available at [S2looking Dataset](https://github.com/S2Looking/)
 
 #### Key ideas
 - View transformer: both neural feature transformation and geometric projection. HDMapNet does not predict depth of monocular cameras at all but use MLP to map pixels from perspective to BEV.
