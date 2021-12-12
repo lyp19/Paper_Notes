@@ -3,9 +3,9 @@
 _Sep 2021_
 
 #### Overall impression
-The paper focuses on prediction of vectorized map elements in the birds-eye-view for scene understanding. The perspective to BEV transformation is not done via IPM but rather with a MLP. The extrinsics are only used to piece the cameras together to the ego frame (thus with only translation, not rotation).
-
-The static BEVNet is essentially an online map. learning framework that makes use of onboard sensors and computation to estimate local maps.
+This paper therefore introduces S2Looking, a building change detection dataset that contains large-scale sidelooking satellite images captured at various off-nadir angles. The dataset consists of 5000 bitemporal image pairs of rural areas and more than 65,920 annotated instances of changes throughout the world. 
+It expands upon existing datasets by providing: 1) larger viewing angles; 2) large illumination variances; and 3) the added complexity of rural images. 
+The dataset is available at ![]https://github.com/S2Looking/
 
 #### Key ideas
 - View transformer: both neural feature transformation and geometric projection. HDMapNet does not predict depth of monocular cameras at all but use MLP to map pixels from perspective to BEV.
