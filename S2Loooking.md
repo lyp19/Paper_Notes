@@ -1,6 +1,6 @@
-# [HDMapNet: An Online HD Map Construction and Evaluation Framework](https://arxiv.org/abs/2107.06307)
+# [S2Looking: A Satellite Side-Looking Dataset for Building Change Detection](https://arxiv.org/pdf/2107.09244.pdf)
 
-_July 2021_
+_Sep 2021_
 
 tl;dr: Structured static BEVNet with optional lidar camera early fusion.
 
