@@ -31,9 +31,9 @@ respectively.
   - Dice Loss
   - J Regularization Loss
 - Global Voxel Transformer Operators
- - Size Preserving GVTO
- - Down-sampling and Up-sampling GVTOs
- - Positioning GVTOs inside BDNet
+  - Size Preserving GVTO
+  - Down-sampling and Up-sampling GVTOs
+  - Positioning GVTOs inside BDNet
 
 #### Technical details
 
