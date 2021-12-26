@@ -25,15 +25,15 @@ achieved overall good performances, scoring an F1-score of 0.79 and 0.785,
 respectively.
  
 #### Key ideas
--Loss Function Benchmark
+- Loss Function Benchmark
 -- Weighted Cross-Entropy Loss
---Focal Loss
---Dice Loss
---J Regularization Loss
--Global Voxel Transformer Operators
---Size Preserving GVTO
---Down-sampling and Up-sampling GVTOs
---Positioning GVTOs inside BDNet
+-- Focal Loss
+-- Dice Loss
+-- J Regularization Loss
+- Global Voxel Transformer Operators
+-- Size Preserving GVTO
+-- Down-sampling and Up-sampling GVTOs
+-- Positioning GVTOs inside BDNet
 
 #### Technical details
 
