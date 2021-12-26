@@ -1,6 +1,4 @@
-# [Building damage assessment for rapid disaster response with a deep
-object-based semantic change detection framework: From natural disasters
-to man-made disasters](https://www.researchgate.net/profile/Zhuo-Zheng-3/publication/354117174_Building_damage_assessment_for_rapid_disaster_response_with_a_deep_object-based_semantic_change_detection_framework_From_natural_disasters_to_man-made_disasters/links/613b7069a5d9ec28f238abc9/Building-damage-assessment-for-rapid-disaster-response-with-a-deep-object-based-semantic-change-detection-framework-From-natural-disasters-to-man-made-disasters.pdf)
+# [Building damage assessment for rapid disaster response with a deep object-based semantic change detection framework: From natural disasters to man-made disasters](https://www.researchgate.net/profile/Zhuo-Zheng-3/publication/354117174_Building_damage_assessment_for_rapid_disaster_response_with_a_deep_object-based_semantic_change_detection_framework_From_natural_disasters_to_man-made_disasters/links/613b7069a5d9ec28f238abc9/Building-damage-assessment-for-rapid-disaster-response-with-a-deep-object-based-semantic-change-detection-framework-From-natural-disasters-to-man-made-disasters.pdf)
 
 _Aug 2021_
 
