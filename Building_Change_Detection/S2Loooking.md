@@ -1,14 +1,16 @@
-# [S2Looking: A Satellite Side-Looking Dataset for Building Change Detection](https://arxiv.org/pdf/2107.09244.pdf)
+# [CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution](https://arxiv.org/abs/2105.05003)
 
-_Sep 2021_
+_May 2021_
 
 #### Overall impression
-This paper introduces S2Looking, a building change detection dataset that contains large-scale sidelooking satellite images captured at various off-nadir angles. The dataset consists of 5000 bitemporal image pairs of rural areas and more than 65,920 annotated instances of changes throughout the world. 
-It expands upon existing datasets by providing: 1) larger viewing angles; 2) large illumination variances; and 3) the added complexity of rural images. 
-The dataset is available at [S2looking Dataset](https://github.com/S2Looking/)
+In this work,they propose CondLaneNet,a novel top-to-down lane detection framework that detects the lane instances first and then dynamically predicts the line shape for each instance.AInming to solve lane instance-level discrimination problem,they introduce a conditional lane detection strategy based on convolution and row-wise formulation.Further,they deisign the Recurrent Instance Module(RIM) to overcome the problem of detecting lane lines with complex topologies.
 
 #### Key ideas
-
+- Instance Detection
+  They detect the lane instacne by detecting the proposal point located at the start point of the line.
+  \ell _{point} = \frac{-1}{N_{p}}\sum_{xy}\left \{ (1 - \hat{P_{xy}})^{\alpha } log(\hat{P_{xy}})  \hat{P_{xy}}=1
+  \right \}  
+ - 
 #### Technical details
 
 
