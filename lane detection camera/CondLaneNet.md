@@ -9,8 +9,6 @@ In this work,they propose CondLaneNet,a novel top-to-down lane detection framewo
 #### Key ideas
 - Instance Detection
   They detect the lane instacne by detecting the proposal point located at the start point of the line.
-  $a^2$
-$f(x)=ax+b$
 
 $\ell _{point} = \frac{-1}{N_{p}}\sum_{xy}\left\{\begin{matrix}
  (1 - \hat{P_{xy}})^{\alpha } log(\hat{P_{xy}})
